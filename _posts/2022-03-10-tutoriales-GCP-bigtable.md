@@ -44,3 +44,9 @@ En la ventana anterior se puede ver tanto el nombre como la id de los projectos 
 Una vez el proyecto esta seleccionado, vamos al producto BigTable.
 
 ![](/assets/images/BigTable/bt3.png)
+![](/assets/images/BigTable/bt4.png)
+
+
+
+Esta por terminar no juzgar
+
