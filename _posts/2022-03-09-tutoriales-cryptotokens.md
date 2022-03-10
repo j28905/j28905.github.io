@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Crypto Tokens
-excerpt: "Convertirte en un autento cryptolai, creando tu propio crypto token"
+excerpt: "Convertirte en un autentico cryptolai, creando tu propio crypto token"
 date: 2022-03-09
 classes: wide
 header:
