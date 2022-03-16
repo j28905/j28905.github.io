@@ -55,7 +55,7 @@ https://developer.nvidia.com/rdp/cudnn-archive
 ```
 
 Por compatibilidad instalaremos CUDNN 7.6 para CUDA 10.1. Para poder descargarnos este archivo, deberemos estar registrados en Nvidia. Una vez descargado el archivo llamado: cudnn-10.1-windows10-x64-v7.6.5.32.zip lo descompriremos y copiaremos cada archivo en la carpeta donde esten los archivos de CUDA. La iamgen siguiente muestra los dos directorios que se han de fusionar;
-![](assets/images/tensorflow/CUDAfiles.png)<br> 
+![](/assets/images/tensorflow/CUDAfiles.png)<br> 
 por lo tanto, tendremos que añadir los ficheros en los directorios bin, include y lib recien descargados a los directorios bin,include y lib de NVIDIA GPU Computing Toolkit .
 
 ### Paso cuarto - Instalar Protoc
@@ -67,7 +67,7 @@ https://github.com/protocolbuffers/protobuf/releases
 ```
 
 Una vez descargado, lo deberemos extraer en el directorio que queramos, en este caso hemos usado un directorio por debajo de C: llamado additionalPackages. El siguiente paso sera añadir el directorio con los binarios al PATH, para ello abrimos las Variables de entorno desde las Propiedades del sistema y añadimos nuestra ruta al PATH.
-![](assets/images/tensorflow/varPATH.png)
+![](/assets/images/tensorflow/varPATH.png)
 
 ### Paso quinto - Instalar TF Object detection
 
