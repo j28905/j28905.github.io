@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "j28905"
   avatar           : "/assets/images/avatar.png"
-  bio              : "primera linea descricion<br> y segunda linea"
+  bio              : 
   location         : "Madrid"
   email            : "correofraudulento123@gmail.com"
   uri              :
