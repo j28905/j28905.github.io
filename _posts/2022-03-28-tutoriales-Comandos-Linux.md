@@ -20,8 +20,22 @@ En este post se mostrarán algunos de los comandos mas básicos de Linux. Estos 
 
 |Comando|Descripcion de uso|
 |-------|------------------|
-|`pwd`|Print Working Directory, nos indica el directorio en el que estamos|
+|`pwd`|Print Working Directory, indica el directorio en el que estamos|
+|`cd`|Change Directory, permite cambiarnos de directorio|
+|`ls`|List, lista el contenido de un directorio|
+|`cat`|Concat, devuelve el contenido de un fichero en la terminal|
+|`cp`|Copy, permite copiar ficheros|
+|`mv`|Move, permite mover ficheros|
+|`mkdir`|Make Directory, permite crear un directorio|
+|`rmdir`|Remove Directory, permite eliminar un directorio vacio|
+|`rm`|Remove, permite eliminar ficheros y directorios|
+|`touch`|Touch, permite crear un fichero vacio|
+|`locate`|Locate, permite localizar un fichero|
+|`find`|Find, busca ficheros y directorios dentro de una ruta|
+|`grep`|Grep, permite buscar dentro del texto almacenado en un fichero|
+|`sudo`|SuperUser Do, permite ejecutar comandos con permisos de root|
+|`head`|Head, permite ver las primeras lineas de un fichero|
+|`tail`|Tail,permite ver las ultimas lineas de un fichero|
 |`cd`| Change Directory, nos permite cambiarnos de directorio|
 |`ls`|List, lista el contenido de un directorio|
-
 
