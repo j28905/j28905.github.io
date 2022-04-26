@@ -60,10 +60,60 @@ Este comando nos devuelve la ruta absoluta en la que estamos trabajando, es deci
 ```bash 
 j28905@PC->j28905:~$ pwd
 /home/j28905
+
+j28905@PC->j28905:~/Desktop$ pwd
+/home/j28905/Desktop
  ```
 
+### cd 
+Este comando se utiliza para movernos a traves de los directorios del sistema. Se indica la ruta a seguir despues del comando cd.
+Si no se le indica ninguna ruta, nos moverá al directorio principal del usuario que lo ejecute, /home/<user>.
+```bash
+j28905@PC->j28905:~$ cd Downloads/
+j28905@PC->j28905:~/Downloads$ cd ../../..
+j28905@PC->j28905:/$ cd
+j28905@PC->j28905:~$
+ ```
+Notese que cuando estamos por debajo del directorio principal del usuario el simbolo de prompt es ~, mientras que cuando estamos situados en directorios por encima del home, el simbolo es $.
 
 
+### ls
+Este comando se utiliza para mostrar por pantalla el contenido de un directorio. Se puede usar sin argumentos, mostrara el contenido del directorio en el que se ejecuta, o con argumentos, especificando una ruta distinta o pasando argumentos para ver archivos ocultos, permisos, etc.
+```bash
+j28905@PC->j28905:/$ ls
+bin   dev  home  lib    lib64   media  opt   root  sbin  srv  tmp  var
+boot  etc  init  lib32  libx32  mnt    proc  run   snap  sys  usr
+j28905@PC->j28905:/$ ls /home/j28905/
+Desktop  Documents  Downloads
+j28905@PC->j28905:/$ ls -alh
+total 620K
+drwxr-xr-x  1 root root 4.0K Apr 26 10:18 .
+drwxr-xr-x  1 root root 4.0K Apr 26 10:18 ..
+lrwxrwxrwx  1 root root    7 Apr 23  2020 bin -> usr/bin
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 boot
+drwxr-xr-x  1 root root 4.0K Apr 26 11:00 dev
+drwxr-xr-x  1 root root 4.0K Apr 26 11:00 etc
+drwxr-xr-x  1 root root 4.0K Apr 26 10:50 home
+-rwxr-xr-x  1 root root 618K Feb 23 23:08 init
+lrwxrwxrwx  1 root root    7 Apr 23  2020 lib -> usr/lib
+lrwxrwxrwx  1 root root    9 Apr 23  2020 lib32 -> usr/lib32
+lrwxrwxrwx  1 root root    9 Apr 23  2020 lib64 -> usr/lib64
+lrwxrwxrwx  1 root root   10 Apr 23  2020 libx32 -> usr/libx32
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 media
+drwxr-xr-x  1 root root 4.0K Apr 26 10:18 mnt
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 opt
+dr-xr-xr-x  9 root root    0 Apr 26 11:00 proc
+drwx------  1 root root 4.0K Apr 26 10:52 root
+drwxr-xr-x  1 root root 4.0K Apr 26 11:00 run
+lrwxrwxrwx  1 root root    8 Apr 23  2020 sbin -> usr/sbin
+drwxr-xr-x  1 root root 4.0K Apr 10  2020 snap
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 srv
+dr-xr-xr-x 12 root root    0 Apr 26 11:00 sys
+drwxrwxrwt  1 root root 4.0K Apr 26 10:50 tmp
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 usr
+drwxr-xr-x  1 root root 4.0K Apr 23  2020 var
+```
 
-
+### cat
+Este comando se usa para mostrar en pantalla el contenido completo de un fichero.
 
