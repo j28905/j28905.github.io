@@ -53,6 +53,16 @@ En este post se mostrarán algunos de los comandos mas básicos de Linux. Estos 
 
 
 
+# Ejemplos
+
+### pwd
+Este comando nos devuelve la ruta absoluta en la que estamos trabajando, es decir la ruta desde /.
+```bash 
+j28905@PC->j28905:~$ pwd
+/home/j28905
+ ```
+
+
 
 
 
