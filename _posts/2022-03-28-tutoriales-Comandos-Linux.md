@@ -35,7 +35,25 @@ En este post se mostrarán algunos de los comandos mas básicos de Linux. Estos 
 |`grep`|Grep, permite buscar dentro del texto almacenado en un fichero|
 |`sudo`|SuperUser Do, permite ejecutar comandos con permisos de root|
 |`head`|Head, permite ver las primeras lineas de un fichero|
-|`tail`|Tail,permite ver las ultimas lineas de un fichero|
-|`cd`| Change Directory, nos permite cambiarnos de directorio|
-|`ls`|List, lista el contenido de un directorio|
+|`tail`|Tail, permite ver las ultimas lineas de un fichero|
+|`diff`|Difference, muestra las diferencias entre dos ficheros|
+|`tar`|Tar, permite usar ficheros comprimidos del tipo tarball|
+|`chmod`|Change Mod, permite cambiar los permisos de un fichero|
+|`chown`|Change Owner, permite cambiar la propiedad de un fichero|
+|`kill`|Kill, permite cerrar programas|
+|`ping`|Ping, verifica tu estado de conectividad con un servidor|
+|`wget`|Web Get, permite descargar ficheros de internet|
+|`uname`|Unix Name, permite conocer datos del sistema Linux utilizado|
+|`top`|Top, muestra los procesos en ejecucion del sistema|
+|`man`|Manual, muestra informacion detallada de los comandos de Linux|
+|`echo`|Echo, permite imprimir en pantalla texto plano|
+|`hostname`|Hostname, permite saber el nombre del host|
+|`useradd`|UserAdd, permite crear usuarios|
+|`userdel`|UserDel, permite eliminar usuarios|
+
+
+
+
+
+
 
