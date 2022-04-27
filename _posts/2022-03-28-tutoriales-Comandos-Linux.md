@@ -150,3 +150,60 @@ j28905@PC->j28905:~$ ls
 Desktop  Documents  Downloads  directorioPrueba
 ```
 
+### rmdir
+Este comando se utiliza para eliminar directorios, necesita una ruta a un directorio que ha de estar vacio.
+```bash
+j28905@PC->j28905:~$ rmdir directorioPrueba
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads
+```
+
+### rm 
+Este comando se utiliza para borrar ficheros o directorios, estos pueden no estar vacios como en el caso anterior. Para poder eliminar estos directorios se requiere el argumento -R, que borrara el directorio de manera recursiva. El argumento -f es muy utilizado tambien ya que "fuerza" el borrado.
+```bash
+j28905@PC->j28905:~$ rm directorioPrueba/
+rm: cannot remove 'directorioPrueba/': Is a directory
+j28905@PC->j28905:~$ rm -R directorioPrueba/
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads
+```
+
+### touch
+Este comando sirve para crear ficheros vacios.
+```bash
+j28905@PC->j28905:~$ touch ficheroVacio
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads  ficheroVacio
+j28905@PC->j28905:~$ cat ficheroVacio
+j28905@PC->j28905:~$
+```
+
+### locate 
+Este comando se utiliza para buscar un fichero sin especificar una ruta en la que buscar.
+```bash
+j28905@PC->j28905:~$ locate hello.txt
+/home/j28905/Desktop/hello.txt
+``` 
+
+### find 
+Este comando se utiliza, como el anterior, para buscar un fichero o directorio. 
+```bash
+j28905@PC->j28905:~$ find -name hello.txt
+./Desktop/hello.txt
+```
+
+### grep
+este comando sirve para buscar dentro del texto almacenado de un fichero, devuelve la linea completa donde se encuentre el texto seleccionado.
+```bash
+j28905@PC->j28905:~$ cat Desktop/hello.txt
+Hello world!!
+Linea segunda
+Linea tercera
+
+Un saludo
+j28905@PC->j28905:~$ grep Linea Desktop/hello.txt
+Linea segunda
+Linea tercera
+j28905@PC->j28905:~$ grep \!\! Desktop/hello.txt
+Hello world!!
+```
