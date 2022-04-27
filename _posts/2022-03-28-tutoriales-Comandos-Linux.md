@@ -115,5 +115,38 @@ drwxr-xr-x  1 root root 4.0K Apr 23  2020 var
 ```
 
 ### cat
-Este comando se usa para mostrar en pantalla el contenido completo de un fichero.
+Este comando se usa para mostrar en pantalla el contenido completo de un fichero. El fichero hello.txt contiene el texto Hello world!!, como se ve a continuacion.
+```bash
+j28905@PC->j28905:~$ cat hello.txt
+Hello world!!
+```
+
+### cp
+Este comando sirve para copiar ficheros, requiere dos argumentos; la ruta al fichero que sera copiado y la ruta donde sera pegado. Las rutas pueden ser relativas o absolutas.
+```bash
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads  hello.txt
+j28905@PC->j28905:~$ cp hello.txt /home/j28905/Desktop/
+j28905@PC->j28905:~$ ls /home/j28905/Desktop/
+hello.txt
+```
+
+### mv
+Este comando sirve para mover un fichero a otra ubicacion y/o renombrarlo.
+A continuacion se muestra un ejemplo para ambos casos.
+```bash
+j28905@PC->j28905:~$ mv hello.txt /home/j28905/Documents/hola.txt
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads
+j28905@PC->j28905:~$ ls Documents/
+hola.txt
+```
+
+### mkdir
+Este comando se utiliza para crear directorios, hace falta pasarle un argumento con la ruta y nombre del directorio que se quiere crear.
+```bash
+j28905@PC->j28905:~$ mkdir directorioPrueba
+j28905@PC->j28905:~$ ls
+Desktop  Documents  Downloads  directorioPrueba
+```
 
